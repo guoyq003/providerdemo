@@ -1,0 +1,2 @@
+#java -classpath  ../*:../conf/:../lib/* StartApp -Xmx512m -Xms512m -Xmn256M -XX:PermSize=128M -XX:MaxPermSize=256M -XX:NewRatio=4
+java -Djava.ext.dirs=../lib com.yidu.dubbo.provider.service.StartApp -Xmx512m -Xms512m -Xmn256M -XX:PermSize=128M -XX:MaxPermSize=256M -XX:NewRatio=4
